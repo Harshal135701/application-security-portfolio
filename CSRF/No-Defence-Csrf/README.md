@@ -15,7 +15,7 @@ The objective was to exploit the email-change functionality and change the victi
 
 After logging in with the provided account, I changed the email address and captured the request using Burp Suite.
 
-![Email change request](./screenshots/01-email-change-request.png)
+![Email change request](./01-email-change-request.png)
 
 The application sent a simple POST request:
 
@@ -33,7 +33,7 @@ There was **no CSRF token or additional CSRF validation** in the request.
 
 I created an HTML form that sends a POST request to the vulnerable endpoint.
 
-![CSRF payload](./screenshots/02-csrf-payload.png)
+![CSRF payload](./02-csrf-payload.png)
 
 ```html
 <form action="https://YOUR-LAB-ID.web-security-academy.net/my-account/change-email" method="POST">
@@ -80,21 +80,11 @@ After opening the exploit, the browser automatically submitted the form to the v
 
 ---
 
-## 🚀 5. Delivering the Exploit
-
-I used **"Deliver exploit to victim"** to send the malicious page to the simulated victim.
-
-![Deliver exploit](./screenshots/04-deliver-exploit.png)
-
-Because the victim was already authenticated, the browser sent the request with the victim's authentication information.
-
----
-
-## ✅ 6. Result
+## ✅ 5. Result
 
 The victim's email address was successfully changed.
 
-![Lab solved](./screenshots/05-lab-solved.png)
+![Lab solved](./05-lab-solved.png)
 
 **Lab Status: Solved ✅**
 
