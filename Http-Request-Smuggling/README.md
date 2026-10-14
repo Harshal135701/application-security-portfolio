@@ -71,7 +71,7 @@ I opened the target application in Burp Suite, intercepted a normal request to t
 
 I observed the server's normal response to establish a baseline before testing the request-parsing behavior.
 
-**Evidence:** `01-Normal-Req.png`
+**Evidence:** <img src="./01-Normal-Reqpng.png" alt="The normal request response">
 
 ### Step 2: Modify the HTTP Request
 
@@ -86,7 +86,7 @@ I then constructed a request body containing an embedded HTTP request and a term
 
 The purpose was to determine whether the front-end and back-end servers interpreted the request body boundaries differently.
 
-**Evidence:** `02-Change-Header-Request.png`
+**Evidence:** <img src="./02-Change-Header-Request.png" alt="The Changed header request">
 
 ### Step 3: Analyze the Differential Response
 
@@ -104,7 +104,7 @@ The subsequent request to the web root (`GET /`) received a `404 Not Found` resp
 
 This behavior satisfied the lab's objective and confirmed the CL.TE request-smuggling vulnerability.
 
-**Evidence:** `03-Execution.png`
+**Evidence:** <img src="./03-Execution.png" alt="The 404 execution">
 
 ---
 
