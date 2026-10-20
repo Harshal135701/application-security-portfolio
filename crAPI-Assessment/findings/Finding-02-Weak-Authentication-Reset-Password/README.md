@@ -53,19 +53,19 @@ Further testing or source-code review is needed to confirm the exact implementat
 
 **Evidence 1: OTP verification using API version 3**
 
-&#x20;   \<img src="./02-Version-3-req.png" alt="Newer version brute force">
+&#x20;   <img src="./02-Version-3-req.png" alt="Newer version brute force">
 
 **Evidence 2: OTP verification using API version 2**
 
-&#x20;   \<img src="./02-Version-2-req-ans.png" alt="Older version brute force">
+&#x20;   <img src="./02-Version-2-req-ans.png" alt="Older version brute force">
 
 **Evidence 3: Successful password reset**
 
-&#x20;   \<img src="./03-Password-rested.png" alt="Password reset using brute force">
+&#x20;   <img src="./03-Password-rested.png" alt="Password reset using brute force">
 
 **Evidence 4: Login after password reset**
 
-&#x20;   \<img src="./04-Logged-in-Dashboard.png" alt="Logged in showing dashboard">
+&#x20;   <img src="./04-Logged-in-Dashboard.png" alt="Logged in showing dashboard">
 
 ## 9. Retesting Status
 
