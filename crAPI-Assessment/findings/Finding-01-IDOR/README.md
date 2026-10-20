@@ -51,13 +51,13 @@ Further testing or source-code review is needed to confirm the exact implementat
 
 **Evidence 1: Normal access to the vehicle service report**
 
-&#x20;   \<img src="./01-Owners-Car-Infopng.png" alt="Normal request">
-&#x20;   \<img src="./01.1-Owners-Car-From-Browser.png" alt="Normal request">
+&#x20;   <img src="./01-Owners-Car-Infopng.png" alt="Normal request">
+&#x20;   <img src="./01.1-Owners-Car-From-Browser.png" alt="Normal request">
 
 **Evidence 2: Access after modifying the service report ID**
 
-&#x20;\<img src="./02-Authenticate-Object-Access.png" alt="Modified request">
-&#x20;\<img src="./02-Authenticated-Object-Access-From-Browser.png" alt="Modified request">
+&#x20;<img src="./02-Authenticate-Object-Access.png" alt="Modified request">
+&#x20;<img src="./02-Authenticated-Object-Access-From-Browser.png" alt="Modified request">
 
 ## 9. Retesting Status
 
